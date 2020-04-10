@@ -8,10 +8,11 @@ ML in Edge requires model compression and acceleration. To fulfil these two goal
 
 The main motivation of KD is to transfer the learned knowledge from the teacher model(s), which is normally large and complicated to a relatively simpler and smaller student model, which is suitable to be deployed into edge devices. There are two mainstream of KD: from deep large to shallow and small, and from ensembles of classifiers to an individual classifier. 
 
+The brief KD pipline is: 
+1. Get the teacher model: train from large dataset or pre-trained models
+2. Train the student model: train with true labels and logits of the teacher model(s) via a combined loss function. ![](https://latex.codecogs.com/gif.latex?a=b&plus;c*2)
 
 
-
-#paper lines:
 ## How it begins?
 Hinton, Geoffrey, Oriol Vinyals, and Jeff Dean. "Distilling the knowledge in a neural network."arXiv preprint arXiv:1503.02531(2015).
 ## How it develops?
