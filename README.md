@@ -1,8 +1,22 @@
 # Literature-Review-On-Knowledge-Distillation
 Notes and highlights of my footprints upon Knowledge Distillation for ML in the Edge  
 This is a note on the papers I found and read on knowledge distillation.
+#ML in the Edge 
+Reference [Embedded Machine Learning Design for Dummies](https://pages.arm.com/machine-learning-for-dummies.html)
 
-#Knowledge Distillation and ML in Edge
+Notes:
+* Edge device doesn't do training but inference only, and can do data collection. Cloud does the training.
+* Edge: IoT device, Edge Server, or other Edge Device
+* Drawbacks of Cloud-Local Edge: latency and reliability (vechile), power cost for data transmission, privacy, less accessible to local environment and personalisation.
+* Trends of ML-Edge: **Reliable**, **Responsive**, **Secure**, **Less Power Requirements**, and **Independent to Internet Connections**.)
+* Deploy ML-Edge: flexibility between hardware and model capability
+	- Use Cases
+	- Perfect model for the best performance trade-off
+	- Hardware Selection: lower-capacity device on reduced accuracy model, and how to adapt the ML model for a given device (finetuning)
+	- Team development tools
+	- **Balance those issues w.r.t. the best Unit Cost**
+
+#Knowledge Distillation and ML-Edge
 
 ML in Edge requires model compression and acceleration. To fulfil these two goals, there are four key techniques: **designning efficient and small NN**, **pruning pre-trained NN**, **quantisation**, and **knowledge distillation**(KD).
 
