@@ -1,7 +1,7 @@
 # Literature-Review-On-Knowledge-Distillation
 Notes and highlights of my footprints upon Knowledge Distillation for ML in the Edge  
 This is a note on the papers I found and read on knowledge distillation.
-#ML in the Edge 
+## ML in the Edge 
 Reference [Embedded Machine Learning Design for Dummies](https://pages.arm.com/machine-learning-for-dummies.html)
 
 Notes:
@@ -16,7 +16,8 @@ Notes:
 	- Team development tools
 	- **Balance those issues w.r.t. the best Unit Cost**
 
-#Knowledge Distillation and ML-Edge
+
+## Knowledge Distillation and ML-Edge
 
 ML in Edge requires model compression and acceleration. To fulfil these two goals, there are four key techniques: **designning efficient and small NN**, **pruning pre-trained NN**, **quantisation**, and **knowledge distillation**(KD).
 
